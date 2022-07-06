@@ -1,0 +1,75 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    text-align: justify;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.eat-food {
+    text-decoration: none;
+    background-color: orange;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.middle-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 150px;
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+
+.food-experience-bg-img {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#small-singrara-left-border {
+    border-left: 7px solid tomato;
+}
+
+#big-samucha-left-border {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
+}
